@@ -14,12 +14,12 @@ The Primary goal is to develop a robust machine learning model that predicts lap
 
 # 3. Technical Stacks
 - **Scripting**: Python
-- **Frameworks**: PANDAS, NUMPY, MATPLOTLIB, SEABORN, SKLEARN
+- **Frameworks**: Pandas, Numpy, Matplotlib, Seaborn, SkLearn
 - **GUI**: Gradio
 - **Data Source**: CSV containing Laptop Data
 
 # 4. Data Understanding
-The Laptop Pricing Data from SmartTech Co includes 1303 records with various features such as:
+The Laptop Pricing Data from SmartTech Co includes 1303 records each with 13 features that includes:
 - **Branding Feautures**: Company Name, TypeName
 - **Specifications Features**: Inches, ScreenResolution, CPU, RAM, Memory, GPU, OS, Weight
 - **Pricing**: Price
