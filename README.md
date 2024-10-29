@@ -30,8 +30,8 @@ The Laptop Pricing Data from SmartTech Co includes 1303 records each with 13 fea
 - **Rename Columns**: Ensure appropriate names are used for better analysis.
 - **Change Data Types**: Ensure columns have appropriate data types (e.g., dates, numbers, text).
 - **Handle null values**: No null values once the unnamed columns were removed.
-- **Feature Scaling**: Replaced and formatted values to maintain data consistency.
-- **Feature Selection**: Selected relevant features and dropped the irrelevant columns.
+- **Feature Scaling**: Standardized values to ensure all features are on the same scale.
+- **Feature Selection**: Selected features that are meaningful to the analysis and avoided highly correlated features that could lead to bias.
 - **Feature Extraction**: Created new columns for better understanding and to avoid multicollinearity.
 - **Feature Encoding**: Encodes the categorical features to Numeric data to build ML model.
 
